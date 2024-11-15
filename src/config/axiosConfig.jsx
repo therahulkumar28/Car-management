@@ -3,8 +3,8 @@ import axios from 'axios';
 
 // Create an axios instance with base configurations
 const axiosInstance = axios.create({
-  //baseURL: 'https://car-management-system-bvkv.onrender.com/', // Replace with your actual API base URL or set in .env
-  baseURL: 'http://localhost:4000/',
+   baseURL: 'https://car-management-system-bvkv.onrender.com/', // Replace with your actual API base URL or set in .env
+ // baseURL: 'http://localhost:4000/',
   timeout: 5000, // Adjust timeout as needed
   headers: {
     'Content-Type': 'application/json',
